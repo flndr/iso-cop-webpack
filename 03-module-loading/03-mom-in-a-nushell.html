@@ -1,0 +1,15 @@
+
+<div data-modules="some-mom-module"></div>
+<div data-modules="other-module"></div>
+
+
+<script>
+    var modules = {};
+    modules[ 'some-mom-module' ] = (function( domNode ) { /* ... */ })();
+    modules[ 'other-module' ]    = (function( domNode ) { /* ... */ })();
+
+    $('[data-modules]').each(function( domNode ) {
+        var moduleName = $(domNode).attr('data-modules');
+        modules[ moduleName ]( domNode );
+    });
+</script>

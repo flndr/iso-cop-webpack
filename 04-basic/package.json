@@ -1,0 +1,17 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "dry":     "webpack --config webpack.config.dry.js",
+    "nice":    "webpack --config webpack.config.nice.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cli-color": "^1.1.0",
+    "webpack": "^2.2.1"
+  }
+}

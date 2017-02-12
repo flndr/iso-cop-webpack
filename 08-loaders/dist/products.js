@@ -1,0 +1,1 @@
+webpackJsonp([1],{31:function(module,exports,__webpack_require__){"use strict";var layoutService=__webpack_require__(0);layoutService(__webpack_require__(8)())},8:function(module,exports,__webpack_require__){"use strict";module.exports=function(){return"products"}}},[31]);

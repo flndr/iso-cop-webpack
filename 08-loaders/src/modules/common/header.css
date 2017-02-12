@@ -1,0 +1,8 @@
+.header {
+    padding: 50px 50px 50px 100px;
+    background-color: #f4f4f4;
+    background-image: url('../../filetypes/webpack_logo.png');
+    background-size: 90px auto;
+    background-position: center left;
+    background-repeat: no-repeat;
+}

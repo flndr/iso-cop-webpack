@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
